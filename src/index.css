@@ -1,0 +1,109 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+.hero {
+  height: 100vh;
+  background: linear-gradient(135deg, #007acc, #005f8d);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-content h1 {
+  font-size: 3.5rem;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.hero-content button {
+  background: #ffcc00;
+  color: #333;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.about-section,
+.experience-section,
+.projects-section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.timeline-item {
+  margin: 20px 0;
+  text-align: left;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project-card a {
+  text-decoration: none;
+  color: #007acc;
+}
+
+.contact-section {
+  padding: 40px 20px;
+  background: #283593;
+  color: white;
+}
+
+.social-icons img {
+  width: 40px;
+  margin: 10px;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #333;
+  color: white;
+}
+
+.project-logo {
+  width: 80px;
+  height: auto;
+  display: block;
+  margin: 0 auto 15px;
+  cursor: pointer;
+}
+
+.project-card button {
+  display: block;
+  width: 100%;
+  background-color: #007acc;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.project-card button:hover {
+  background-color: #005f8d;
+}
