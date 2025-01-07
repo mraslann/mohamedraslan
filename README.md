@@ -13,7 +13,7 @@ This is the personal portfolio website of Mohamed Raslan, showcasing my skills, 
 - **Styling:** CSS (for layout and design)
 - **Hosting:** GitHub Pages
 
-The portfolio is live at `https://github.com/mraslann/mohamedraslan`.
+The portfolio is live at `https://mraslann.github.io/mohamedraslan/`.
 
 ## Contact
 You can reach me at:
