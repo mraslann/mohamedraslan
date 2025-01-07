@@ -13,49 +13,7 @@ This is the personal portfolio website of Mohamed Raslan, showcasing my skills, 
 - **Styling:** CSS (for layout and design)
 - **Hosting:** GitHub Pages
 
-## Installation & Running Locally
-
-To run the portfolio website locally, follow these steps:
-
-### Prerequisites
-- Node.js (v14 or higher) and npm must be installed on your machine.
-
-### Steps
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   ```
-
-2. Navigate to the project directory:
-   ```bash
-   cd your-repo-name
-   ```
-
-3. Install the dependencies:
-   ```bash
-   npm install
-   ```
-
-4. Run the development server:
-   ```bash
-   npm start
-   ```
-
-   This will start the local server and you can access the website in your browser at `http://localhost:3000`.
-
-## Deployment
-
-To deploy this project to GitHub Pages:
-
-1. Make sure the repository is committed and pushed to GitHub.
-
-2. Run the deployment script:
-   ```bash
-   npm run deploy
-   ```
-
-   Your portfolio will be live at `https://<your-username>.github.io/<your-repo-name>`.
+The portfolio is live at `https://github.com/mraslann/mohamedraslan`.
 
 ## Contact
 You can reach me at:
