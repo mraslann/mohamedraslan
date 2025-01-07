@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mohamedraslan/static/css/main.db05e364.css",
+    "main.js": "/mohamedraslan/static/js/main.9087f72e.js",
+    "index.html": "/mohamedraslan/index.html",
+    "main.db05e364.css.map": "/mohamedraslan/static/css/main.db05e364.css.map",
+    "main.9087f72e.js.map": "/mohamedraslan/static/js/main.9087f72e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db05e364.css",
+    "static/js/main.9087f72e.js"
+  ]
+}
