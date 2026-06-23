@@ -1,102 +1,45 @@
-body {
-  font-family: "Poppins", sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f9;
-  color: #333;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-slate-900 text-slate-200 font-sans leading-relaxed;
+  }
+
+  ::selection {
+    @apply bg-emerald-500 text-slate-900;
+  }
 }
 
-.hero {
-  height: 100vh;
-  background: linear-gradient(135deg, #007acc, #005f8d);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: white;
-}
+@layer components {
+  .section-container {
+    @apply max-w-5xl mx-auto px-6 py-20;
+  }
 
-.hero-content h1 {
-  font-size: 3.5rem;
-}
+  .section-title {
+    @apply text-2xl font-bold text-slate-50 mb-10 flex items-center gap-3;
+  }
 
-.hero-content p {
-  font-size: 1.5rem;
-  margin-bottom: 20px;
-}
+  .section-title::before {
+    content: "";
+    @apply inline-block w-[3px] h-6 bg-emerald-500 rounded-sm;
+  }
 
-.hero-content button {
-  background: #ffcc00;
-  color: #333;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
+  .card {
+    @apply bg-slate-800 border border-slate-700 rounded-xl p-6 transition-all duration-200;
+  }
 
-.about-section,
-.experience-section,
-.projects-section {
-  padding: 60px 20px;
-  text-align: center;
-}
+  .card:hover {
+    @apply border-emerald-500/60 -translate-y-0.5;
+  }
 
-.timeline-item {
-  margin: 20px 0;
-  text-align: left;
-}
-
-.project-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-}
-
-.project-card {
-  background: white;
-  border-radius: 8px;
-  padding: 20px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.project-card a {
-  text-decoration: none;
-  color: #007acc;
-}
-
-.contact-section {
-  padding: 40px 20px;
-  background: #283593;
-  color: white;
-}
-
-.social-icons img {
-  width: 40px;
-  margin: 10px;
-}
-
-.project-logo {
-  width: 80px;
-  height: auto;
-  display: block;
-  margin: 0 auto 15px;
-  cursor: pointer;
-}
-
-.project-card button {
-  display: block;
-  width: 100%;
-  background-color: #007acc;
-  color: white;
-  border: none;
-  padding: 10px;
-  border-radius: 5px;
-  font-size: 14px;
-  cursor: pointer;
-  margin-top: 10px;
-  text-align: center;
-}
-
-.project-card button:hover {
-  background-color: #005f8d;
+  .tag {
+    @apply inline-block text-xs font-medium px-2.5 py-1 rounded-full
+           bg-emerald-500/10 text-emerald-400 border border-emerald-500/20;
+  }
 }
