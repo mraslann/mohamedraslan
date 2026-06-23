@@ -6,7 +6,7 @@ function Footer() {
   return (
     <footer className="border-t border-slate-800">
       <div className="section-container py-8">
-        <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div className="flex flex-col sm:flex-row items-center justify-between gap-4 mb-6">
           <p className="text-slate-500 text-sm">
             &copy; 2026 Mohamed Raslan. Engineered for reliability.
           </p>
@@ -38,6 +38,19 @@ function Footer() {
             </a>
           </div>
         </div>
+        <p className="text-slate-600 text-xs text-center">
+          Under the hood: Built with React &amp; Tailwind CSS. Hosted on GitHub
+          Pages. Codebase is{" "}
+          <a
+            href="https://github.com/mraslann/mohamedraslan"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-slate-500 hover:text-accent underline transition-colors duration-200"
+          >
+            open-source on GitHub
+          </a>
+          .
+        </p>
       </div>
     </footer>
   );

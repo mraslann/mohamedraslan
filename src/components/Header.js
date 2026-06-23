@@ -27,6 +27,20 @@ function Header() {
           Spring Boot microservices, LLM-powered tools, and Android systems —
           sometimes all in the same week.
         </p>
+
+        <div className="bg-slate-800/60 border border-slate-700 rounded-lg p-5 mb-8 max-w-2xl">
+          <p className="text-accent text-xs font-semibold uppercase tracking-wider mb-2">
+            Current Focus
+          </p>
+          <p className="text-slate-300 text-sm leading-relaxed">
+            I am deeply interested in the intersection of traditional distributed
+            systems and event-driven architectures. I focus on making data pipeline
+            ingestion lower latency and finding data-backed optimizations for
+            resource-heavy backend tasks — proving that modern AI workloads are only
+            as reliable as the infrastructure supporting them.
+          </p>
+        </div>
+
         <div className="flex flex-wrap items-center gap-4">
           <a
             href="https://github.com/mraslann"

@@ -3,24 +3,24 @@ import { Cpu } from "lucide-react";
 
 const categories = [
   {
+    name: "Backend Frameworks",
+    skills: ["Spring Boot", "Hibernate", "FastAPI", "Flask", "Node.js", "NestJS"],
+  },
+  {
+    name: "Infrastructure & Databases",
+    skills: ["AWS", "Docker", "PostgreSQL", "Redis", "MySQL", "Git", "Linux"],
+  },
+  {
+    name: "Mobile, Embedded & Maps",
+    skills: ["Android SDK", "Android Automotive", "OSMDroid", "GraphHopper", "Traccar"],
+  },
+  {
     name: "Languages",
     skills: ["Python", "Java", "SQL", "C", "JavaScript", "TypeScript"],
   },
   {
-    name: "AI & ML",
-    skills: ["LangGraph", "LLMs (Claude / AWS Bedrock)", "YOLO", "OpenAI Whisper", "TensorFlow", "PyTorch"],
-  },
-  {
-    name: "Backend",
-    skills: ["Spring Boot", "Hibernate", "FastAPI", "Flask", "Node.js", "NestJS"],
-  },
-  {
-    name: "Mobile & Embedded",
-    skills: ["Android SDK", "Android Automotive", "OSMDroid", "GraphHopper", "Traccar"],
-  },
-  {
-    name: "Infrastructure & Tools",
-    skills: ["AWS", "Docker", "PostgreSQL", "Redis", "MySQL", "Git", "Linux", "Postman", "Jira", "Swagger"],
+    name: "Specialized / AI",
+    skills: ["LangGraph", "YOLOv10", "OpenAI Whisper", "TensorFlow", "PyTorch"],
   },
 ];
 
@@ -55,7 +55,7 @@ function Skills() {
           {categories[activeTab].skills.map((skill, i) => (
             <span
               key={i}
-              className="bg-slate-800 text-slate-200 px-4 py-2 rounded-md text-sm font-mono border border-slate-600 hover:border-accent transition-colors duration-200"
+              className="bg-slate-900 text-slate-200 px-4 py-2 rounded-md text-sm font-mono border border-slate-600 hover:border-accent transition-colors duration-200"
             >
               {skill}
             </span>
