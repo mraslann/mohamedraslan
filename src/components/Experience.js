@@ -8,12 +8,12 @@ const experiences = [
     period: "Aug 2025 – Present",
     location: "Alexandria, Egypt",
     bullets: [
-      "Architected an end-to-end agentic AI system with LangGraph and Claude (AWS Bedrock) that parses corporate documents into a structured knowledge graph, automatically surfaces business opportunities, and generates tailored pitch decks — reducing a multi-day manual process to minutes.",
-      "Delivered production features for The Space, a smart workspace reservation platform serving thousands of users, building RESTful APIs and data models with Java Spring Boot, Hibernate, PostgreSQL, and Redis-based caching in an Agile/Scrum environment.",
-      "Built a custom Android Automotive navigation app with real-time fleet tracking (Traccar) and offline routing (GraphHopper), resolving background concurrency bottlenecks that directly secured a new enterprise client contract.",
-      "Contributed to AISOC, a cybersecurity operations platform built on a microservices architecture, implementing Spring Boot services integrated via Kafka for event-driven communication, alongside async processing pipelines and automated testing (JUnit/Mockito).",
+      "Shipped an end-to-end agentic AI product from design to production in under 8 weeks, collaborating across product, data, and frontend teams in a fast-paced Agile/Scrum environment.",
+      "Delivered scalable RESTful APIs and data models for The Space reservation platform, implementing Redis-based caching that brought booking query latency under 100ms during peak traffic for thousands of concurrent users.",
+      "Diagnosed and resolved background concurrency bottlenecks in an Android Automotive navigation app — the fix directly unblocked a stalled enterprise client contract worth a new revenue stream.",
+      "Contributed to AISOC, a cybersecurity operations platform, owning Spring Boot microservices with Kafka-based event-driven communication, writing automated test suites (JUnit/Mockito) to maintain deployment confidence across 20+ services.",
     ],
-    tags: ["Java", "Spring Boot", "LangGraph", "AWS Bedrock", "PostgreSQL", "Kafka", "Android Automotive"],
+    tags: ["Java", "Spring Boot", "Kafka", "PostgreSQL", "Android Automotive", "Agile"],
   },
   {
     title: "Software Engineer",
@@ -21,11 +21,11 @@ const experiences = [
     period: "Dec 2023 – Jul 2025",
     location: "Remote",
     bullets: [
-      "Engineered an AI highlight detection pipeline for KWIKMotion that automatically identifies and clips key moments from long-form video, cutting manual editing time significantly and enabling a new short-form content product line.",
-      "Built automated multilingual transcription and translation using OpenAI Whisper, enabling KWIKMotion to expand into Arabic-language markets and establish partnerships with Rotana and MBC.",
-      "Re-architected KWIKMotion's AI video cropping system for AlArabiya using YOLO, improving subject-framing accuracy by 50% and cutting per-video processing time by 30%.",
+      "Owned the full lifecycle of KWIKMotion's video processing features — scoping, implementation, testing, and production deployment — across a distributed remote team.",
+      "Delivered multilingual transcription capabilities that opened Arabic-language markets, directly enabling partnership deals with Rotana and MBC.",
+      "Led a performance optimization initiative on the video cropping pipeline that improved accuracy by 50% and cut processing costs by 30%, increasing platform retention metrics.",
     ],
-    tags: ["Python", "FastAPI", "YOLO", "Whisper", "Redis"],
+    tags: ["Python", "FastAPI", "Production Delivery", "Performance Optimization"],
   },
   {
     title: "Python & Algorithms Tutor",
@@ -33,9 +33,9 @@ const experiences = [
     period: "Mar 2025 – Present",
     location: "Remote",
     bullets: [
-      "Mentor beginner developers in Python fundamentals, OOP, and algorithmic problem-solving; designed structured curricula that accelerated students from zero to independently solving LeetCode-style problems.",
+      "Designed structured curricula for beginner developers covering Python fundamentals, OOP, and algorithmic problem-solving — accelerating students from zero to independently solving LeetCode-style problems.",
     ],
-    tags: ["Python", "DSA", "OOP", "Teaching"],
+    tags: ["Python", "DSA", "Mentorship"],
   },
 ];
 

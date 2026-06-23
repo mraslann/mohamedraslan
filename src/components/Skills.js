@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Cpu } from "lucide-react";
 
 const categories = [
@@ -25,8 +25,6 @@ const categories = [
 ];
 
 function Skills() {
-  const [activeTab, setActiveTab] = useState(0);
-
   return (
     <section id="skills" className="section-container">
       <h2 className="section-title">
@@ -34,45 +32,25 @@ function Skills() {
         Technical Skills
       </h2>
 
-      <div className="flex flex-wrap gap-2 mb-6">
-        {categories.map((cat, i) => (
-          <button
-            key={i}
-            onClick={() => setActiveTab(i)}
-            className={`px-4 py-2 text-sm font-medium rounded-lg transition-all duration-200 cursor-pointer ${
-              activeTab === i
-                ? "bg-accent text-slate-900"
-                : "bg-slate-800 text-slate-300 hover:bg-slate-700 border border-slate-700"
-            }`}
-          >
-            {cat.name}
-          </button>
-        ))}
-      </div>
-
-      <div className="card">
-        <div className="flex flex-wrap gap-3">
-          {categories[activeTab].skills.map((skill, i) => (
-            <span
-              key={i}
-              className="bg-slate-900 text-slate-200 px-4 py-2 rounded-md text-sm font-mono border border-slate-600 hover:border-accent transition-colors duration-200"
-            >
-              {skill}
-            </span>
-          ))}
-        </div>
-      </div>
-
-      <div className="mt-8 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {categories.map((cat, i) => (
           <div
             key={i}
-            className="bg-slate-800/50 rounded-lg p-4 border border-slate-700/50"
+            className="bg-slate-800/60 rounded-lg p-5 border border-slate-700/50"
           >
-            <p className="text-xs text-accent font-medium mb-2">{cat.name}</p>
-            <p className="text-slate-400 text-xs leading-relaxed">
-              {cat.skills.join(", ")}
+            <p className="text-xs text-accent font-semibold uppercase tracking-wider mb-3">
+              {cat.name}
             </p>
+            <div className="flex flex-wrap gap-2">
+              {cat.skills.map((skill, j) => (
+                <span
+                  key={j}
+                  className="bg-slate-900 text-slate-300 px-2.5 py-1 rounded text-xs font-mono border border-slate-700 hover:border-accent transition-colors duration-200 whitespace-nowrap"
+                >
+                  {skill}
+                </span>
+              ))}
+            </div>
           </div>
         ))}
       </div>
