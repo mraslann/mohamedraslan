@@ -1,9 +1,10 @@
 import React from "react";
 import Header from "./components/Header";
-import Experience from "./components/Experience";
-import Education from "./components/Education";
 import Projects from "./components/Projects";
+import Experience from "./components/Experience";
+import SystemsExpertise from "./components/SystemsExpertise";
 import Skills from "./components/Skills";
+import Education from "./components/Education";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import "./index.css";
@@ -15,6 +16,7 @@ function App() {
       <main>
         <Projects />
         <Experience />
+        <SystemsExpertise />
         <Skills />
         <Education />
         <Contact />

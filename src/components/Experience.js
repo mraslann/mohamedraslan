@@ -8,12 +8,12 @@ const experiences = [
     period: "Aug 2025 – Present",
     location: "Alexandria, Egypt",
     bullets: [
-      "Shipped an end-to-end agentic AI product from design to production in under 8 weeks, collaborating across product, data, and frontend teams in a fast-paced Agile/Scrum environment.",
-      "Delivered scalable RESTful APIs and data models for The Space reservation platform, implementing Redis-based caching that brought booking query latency under 100ms during peak traffic for thousands of concurrent users.",
-      "Diagnosed and resolved background concurrency bottlenecks in an Android Automotive navigation app — the fix directly unblocked a stalled enterprise client contract worth a new revenue stream.",
-      "Contributed to AISOC, a cybersecurity operations platform, owning Spring Boot microservices with Kafka-based event-driven communication, writing automated test suites (JUnit/Mockito) to maintain deployment confidence across 20+ services.",
+      "Own backend services across three production systems simultaneously: a reservation platform (Spring Boot + PostgreSQL + Redis), a cybersecurity event-correlation platform (Kafka-based microservices), and an agentic AI pipeline (LangGraph + AWS Bedrock).",
+      "Designed and shipped AISOC's event-driven architecture — Spring Boot services integrated via Kafka topics, with async processing pipelines and automated test suites (JUnit/Mockito) maintaining deployment confidence across 20+ services.",
+      "Built Redis caching strategy for The Space that brought booking query latency under 100ms during peak traffic for thousands of concurrent users.",
+      "Built a custom Android Automotive navigation app from scratch — real-time fleet tracking (Traccar), offline routing (GraphHopper), and a threading architecture that meets automotive-grade performance constraints. Delivered system that directly secured a new enterprise client contract.",
     ],
-    tags: ["Java", "Spring Boot", "Kafka", "PostgreSQL", "Android Automotive", "Agile"],
+    tags: ["Spring Boot", "Kafka", "PostgreSQL", "Redis", "AWS Bedrock", "Android Automotive"],
   },
   {
     title: "Software Engineer",
@@ -21,11 +21,11 @@ const experiences = [
     period: "Dec 2023 – Jul 2025",
     location: "Remote",
     bullets: [
-      "Owned the full lifecycle of KWIKMotion's video processing features — scoping, implementation, testing, and production deployment — across a distributed remote team.",
-      "Delivered multilingual transcription capabilities that opened Arabic-language markets, directly enabling partnership deals with Rotana and MBC.",
-      "Led a performance optimization initiative on the video cropping pipeline that improved accuracy by 50% and cut processing costs by 30%, increasing platform retention metrics.",
+      "Owned full delivery lifecycle of KWIKMotion's video processing systems — from architecture design through production deployment across a distributed team.",
+      "Re-architected the video cropping pipeline: replaced synchronous frame-by-frame processing with an async worker model, improving accuracy by 50% and cutting processing time by 30%.",
+      "Delivered multilingual transcription (OpenAI Whisper) that opened Arabic-language markets, directly enabling deals with Rotana, MBC, and AlArabiya.",
     ],
-    tags: ["Python", "FastAPI", "Production Delivery", "Performance Optimization"],
+    tags: ["Python", "FastAPI", "YOLO", "Whisper", "Production Systems"],
   },
   {
     title: "Python & Algorithms Tutor",
@@ -33,7 +33,7 @@ const experiences = [
     period: "Mar 2025 – Present",
     location: "Remote",
     bullets: [
-      "Designed structured curricula for beginner developers covering Python fundamentals, OOP, and algorithmic problem-solving — accelerating students from zero to independently solving LeetCode-style problems.",
+      "Design structured curricula covering Python, OOP, and algorithmic problem-solving — students progress from fundamentals to independently solving LeetCode-style problems.",
     ],
     tags: ["Python", "DSA", "Mentorship"],
   },
