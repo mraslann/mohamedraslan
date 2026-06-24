@@ -1,26 +1,18 @@
 # Mohamed Raslan - Portfolio
 
-This is the personal portfolio website of Mohamed Raslan, showcasing my skills, experience, and projects as a software engineer. It includes links to my professional profiles, GitHub repositories, and detailed descriptions of my key projects.
+Personal portfolio website showcasing my work as a software engineer building production backend systems, AI infrastructure, and distributed architectures.
 
-## Features
-- **Projects:** Display of key personal and professional projects with links to their live sites and source code.
-- **Experience:** A section outlining my roles, responsibilities, and accomplishments as a software engineer and intern.
-- **Skills:** A list of programming languages, frameworks, tools, and libraries that I am proficient in.
-- **Contact Information:** Quick access to my email, phone number, and social media profiles.
+Live at **https://mraslann.github.io/mohamedraslan/**
 
-## Technologies Used
-- **Frontend:** React.js
-- **Styling:** CSS (for layout and design)
+## Tech Stack
+
+- **Frontend:** React 19, Tailwind CSS v3
+- **Icons:** Lucide React + custom SVGs
+- **Build:** Create React App (react-scripts)
 - **Hosting:** GitHub Pages
 
-The portfolio is live at https://mraslann.github.io/mohamedraslan/
-
 ## Contact
-You can reach me at:
 
 - **Email:** raslanmohamed.mr@gmail.com
 - **LinkedIn:** [linkedin.com/in/mohamed-raslan1](https://www.linkedin.com/in/mohamed-raslan1/)
 - **GitHub:** [github.com/mraslann](https://github.com/mraslann)
-
-## License
-This project is open source and available under the MIT License.
